@@ -1,0 +1,16 @@
+{
+  "name": "TYPESCRIPT",
+  "version": "1.0.0",
+  "description": "",
+  "main": "aula_00_introducao.js",
+  "scripts": {
+    "start": "live-server",
+    "compile:tsc": "tsc -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
