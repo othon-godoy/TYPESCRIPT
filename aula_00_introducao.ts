@@ -6,5 +6,5 @@
  * --- tsc nome_do_arquivo.ts
  */
 
-const a: string = 'Introducao TS';
-console.log(a);
+const aula: string = 'Aula 00 - Introdução TS';
+console.log(aula);

@@ -6,5 +6,5 @@
  *
  * --- tsc nome_do_arquivo.ts
  */
-var a = 'Introducao TS';
-console.log(a);
+var aula = 'Aula 00 - Introdução TS';
+console.log(aula);
