@@ -3,7 +3,7 @@
  */
 
 var aula5:string = "Aula 05 - Enums"
-console.log(aula5);
+console.log(aula5)
 
 enum semana{
     Domingo = 1,
@@ -15,6 +15,6 @@ enum semana{
     Sabado = 7
 }
 
-var dia:semana = semana.Domingo; 
-console.log(dia);
+var dia:semana = semana.Domingo
+console.log(dia)
 

@@ -6,17 +6,17 @@
 
 //String
 var aula1 = "Aula 01 - Tipos Básicos TS"
-console.log(aula1);
+console.log(aula1)
 //nome = 12;
 
-let str = "string";
-console.log(str);
+let str = "string"
+console.log(str)
 
 //Numbers
-let idade = 21;
-idade = 21.5;
-console.log(idade);
+let idade = 21
+idade = 21.5
+console.log(idade)
 
 //Boolean
-let possuiHobbies = false;
-console.log(possuiHobbies);
+let possuiHobbies = false
+console.log(possuiHobbies)
