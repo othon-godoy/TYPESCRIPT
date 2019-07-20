@@ -23,7 +23,9 @@
 
  console.log(multiplicar(5,9))
 
+ /*
  const func = function(a:number, b:number):boolean{
     return false
  }
+ */
  

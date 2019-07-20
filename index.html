@@ -7,6 +7,7 @@
     <title>TypeScript</title>
 </head>
 <body>
+    <script src="node_modules/systemjs/dist/system.js"></script>
     <script src="aula_00_introducao.js"></script>
     <script src="aula_01_tipos.js"></script>
     <script src="aula_02_tiposexplicitos.js"></script>
@@ -19,5 +20,35 @@
     <script src="aula_08_desafio-objetos.js"></script>
     <script src="aula_09_tipospersonalizados.js"></script>
     <script src="aula_10_uniontypes.js"></script>
+    <script src="aula_11_let-const.js"></script>
+    <script src="aula_12_arrow-function.js"></script>
+    <script src="aula_13_parametro-padrao.js"></script>
+    <script src="aula_14_rest-spread.js"></script>
+    <script src="aula_15_array-destructuring.js"></script>
+    <script src="aula_16_template-string.js"></script>
+    <script src="aula_17_promises.js"></script>
+    <script src="aula_18_classes-atributos.js"></script>
+    <script src="aula_19_modificadores-acesso.js"></script>
+    <script src="aula_20_heranca.js"></script>
+    <script src="aula_21_getters-setters.js"></script>
+    <script src="aula_22_membros-estaticos.js"></script>
+    <script src="aula_23_abstract-class.js"></script>
+    <script src="namespaces/geometriaCirc.js"></script>
+    <script src="namespaces/geometriaRect.js"></script>
+    <script src="namespaces/namespaces.js"></script>
+    <!--<script src="modulos/modulos.js"></script>-->
+
+    <script>
+        SystemJS.config({
+            baseUrl: '/modulos',
+            packages: {
+                '/modulos': {
+                    defaultJSExtension: true
+                }
+            }
+        })
+
+        SystemJS.import('./modulos/modulos.js')
+    </script>
 </body>
 </html>

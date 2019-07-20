@@ -6,7 +6,7 @@ var aula9 = "Aula 09 - Tipos Personalizados";
 console.log(aula9);
 var funcionario = {
     supervisores: ["Amanda", "Fernandes", "Fonseca"],
-    baterPonto: function (horario) {
+    baterPonto(horario) {
         if (horario > 8) {
             return "Fora do horário";
         }

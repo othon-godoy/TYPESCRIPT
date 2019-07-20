@@ -6,6 +6,6 @@ var aula10 = "Aula 10 - Desafio Objetos";
 console.log(aula10);
 var nota;
 nota = 10;
-console.log("Minha nota \u00E9 " + nota);
+console.log(`Minha nota é ${nota}`);
 nota = '10';
-console.log("Minha nota \u00E9 " + nota);
+console.log(`Minha nota é ${nota}`);

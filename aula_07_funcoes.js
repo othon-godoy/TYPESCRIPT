@@ -16,6 +16,8 @@ function multiplicar(nA, nB) {
     return nA * nB;
 }
 console.log(multiplicar(5, 9));
-var func = function (a, b) {
-    return false;
-};
+/*
+const func = function(a:number, b:number):boolean{
+   return false
+}
+*/

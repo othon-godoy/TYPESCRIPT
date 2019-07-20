@@ -12,7 +12,7 @@ var aula8 = "Aula 08 - Desafio Objetos";
 console.log(aula8);
 var funcionario = {
     supervisores: ["Amanda", "Fernandes", "Fonseca"],
-    baterPonto: function (horario) {
+    baterPonto(horario) {
         if (horario > 8) {
             return "Fora do horário";
         }
